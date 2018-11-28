@@ -1,4 +1,4 @@
-#Image Cleaner
+# Image Cleaner
 
 **Features:**
 
@@ -18,5 +18,4 @@
 - **Will it be updated?**
     - No
 
----
 ---
