@@ -1,0 +1,17 @@
+C:\Users\Skynet\source\repos\ImageCleaner\ImageCleaner\bin\Debug\ImageCleaner.exe.config
+C:\Users\Skynet\source\repos\ImageCleaner\ImageCleaner\bin\Debug\ImageCleaner.exe
+C:\Users\Skynet\source\repos\ImageCleaner\ImageCleaner\bin\Debug\ImageCleaner.pdb
+C:\Users\Skynet\source\repos\ImageCleaner\ImageCleaner\obj\Debug\ImageCleaner.csprojAssemblyReference.cache
+C:\Users\Skynet\source\repos\ImageCleaner\ImageCleaner\obj\Debug\ImageCleaner.Form1.resources
+C:\Users\Skynet\source\repos\ImageCleaner\ImageCleaner\obj\Debug\ImageCleaner.Properties.Resources.resources
+C:\Users\Skynet\source\repos\ImageCleaner\ImageCleaner\obj\Debug\ImageCleaner.csproj.GenerateResource.cache
+C:\Users\Skynet\source\repos\ImageCleaner\ImageCleaner\obj\Debug\ImageCleaner.csproj.CoreCompileInputs.cache
+C:\Users\Skynet\source\repos\ImageCleaner\ImageCleaner\obj\Debug\ImageCleaner.exe
+C:\Users\Skynet\source\repos\ImageCleaner\ImageCleaner\obj\Debug\ImageCleaner.pdb
+C:\Users\Skynet\source\repos\ImageCleaner\ImageCleaner\bin\Debug\AForge.dll
+C:\Users\Skynet\source\repos\ImageCleaner\ImageCleaner\bin\Debug\AForge.Imaging.dll
+C:\Users\Skynet\source\repos\ImageCleaner\ImageCleaner\bin\Debug\AForge.Math.dll
+C:\Users\Skynet\source\repos\ImageCleaner\ImageCleaner\bin\Debug\AForge.xml
+C:\Users\Skynet\source\repos\ImageCleaner\ImageCleaner\bin\Debug\AForge.Imaging.xml
+C:\Users\Skynet\source\repos\ImageCleaner\ImageCleaner\bin\Debug\AForge.Math.xml
+C:\Users\Skynet\source\repos\ImageCleaner\ImageCleaner\obj\Debug\ImageCleaner.csproj.CopyComplete

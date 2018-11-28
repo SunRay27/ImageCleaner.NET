@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageCleaner", "ImageCleaner\ImageCleaner.csproj", "{ADD9ACC3-63B2-4EB6-9AC9-0FDB2AE1AD1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADD9ACC3-63B2-4EB6-9AC9-0FDB2AE1AD1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADD9ACC3-63B2-4EB6-9AC9-0FDB2AE1AD1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADD9ACC3-63B2-4EB6-9AC9-0FDB2AE1AD1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADD9ACC3-63B2-4EB6-9AC9-0FDB2AE1AD1B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {484650E3-4083-4D5E-863F-62CE5B2C47BD}
+	EndGlobalSection
+EndGlobal
