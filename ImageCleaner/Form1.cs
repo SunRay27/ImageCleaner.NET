@@ -15,6 +15,7 @@ namespace ImageCleaner
 {
     public partial class Form1 : Form
     {
+	//This is usless omg
         public Form1()
         {
             InitializeComponent();
