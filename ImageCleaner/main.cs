@@ -8,6 +8,7 @@ namespace ImageCleaner
 {
     static class Program
     {
+	//Is not it enough???
         /// Главная точка входа для приложения.
         [STAThread]
         static void Main()
