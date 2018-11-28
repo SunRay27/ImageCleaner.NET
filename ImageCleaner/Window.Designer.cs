@@ -1,6 +1,6 @@
 ﻿namespace ImageCleaner
 {
-    partial class Form1
+    partial class Window
     {
         /// <summary>
         /// Обязательная переменная конструктора.
@@ -206,7 +206,7 @@
             this.fileImage.TabIndex = 16;
             this.fileImage.TabStop = false;
             // 
-            // Form1
+            // Window
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(191F, 191F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
@@ -230,7 +230,7 @@
             this.Controls.Add(this.progressBar);
             this.Controls.Add(this.startButton);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.Name = "Form1";
+            this.Name = "Window";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Image Cleaner v0.12";
             ((System.ComponentModel.ISupportInitialize)(this.templateImage)).EndInit();

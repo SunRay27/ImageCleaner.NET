@@ -13,28 +13,31 @@ using AForge.Imaging;
 
 namespace ImageCleaner
 {
-    public partial class Form1 : Form
+    public partial class Window : Form
     {
-	//This is usless omg
-        public Form1()
-        {
-            InitializeComponent();
-            mult = trackBar.Value / 100f;
-            templateList.MultiSelect = false;
-            fileList.MultiSelect = false;
-        }
 	//Variables
         List<string> filePaths;
         List<string> templatePaths;
         Color replaceColor;
         string outputPath;
         float mult = 0;
+
+        public Window()
+        {
+            InitializeComponent();
+            mult = trackBar.Value / 100f;
+            templateList.MultiSelect = false;
+            fileList.MultiSelect = false;
+        }
+
+
         private void filesButton_Click(object sender, EventArgs e)
         {
             OpenFileDialog filesDialog = new OpenFileDialog();
             filesDialog.Title = "Select images to work with";
             filesDialog.Multiselect = true;
             filesDialog.Filter = "Image files|*.png;*.jpg";
+
             if (filesDialog.ShowDialog() == DialogResult.OK)
             {
                 try
@@ -42,6 +45,7 @@ namespace ImageCleaner
                     fileImage.Image = System.Drawing.Image.FromFile(filesDialog.FileName);
                     fileList.Items.Clear();
                     filePaths = new List<string>(filesDialog.FileNames);
+
                     foreach (var item in filePaths)
                     {
                         //ListViewItem path = new ListViewItem(item.Split('\\')[item.Split('\\').Length-1]);
@@ -59,9 +63,8 @@ namespace ImageCleaner
         {
             Bitmap copy = new Bitmap(image.Width, image.Height, format);
             using (Graphics gr = Graphics.FromImage(copy))
-            {
                 gr.DrawImage(image, new Rectangle(0, 0, copy.Width, copy.Height));
-            }
+	
             return copy;
         }
         private void startButton_Click(object sender, EventArgs e)
